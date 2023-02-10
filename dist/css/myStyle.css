@@ -1,0 +1,77 @@
+
+
+
+form{
+    border: 1px solid rgb(196, 198, 199);
+    border-radius: 5px;
+    padding: 15px 5px;
+    margin: auto;
+
+}
+.inputBody{
+    width: 100%;
+    padding: 0px;
+    margin-top: 7px;
+    margin-right: 15px;
+}
+.lbl{
+    border-top: 1px solid rgb(196, 198, 199);
+    border-right: 1px solid rgb(196, 198, 199);
+    border-left: 1px solid rgb(196, 198, 199);
+    border-radius: 5px 5px 0px 0px;
+    margin: 0px;
+    padding: 4px 4px;
+    color: rgb(117, 115, 115);
+    width: 80px;
+    background-color: rgb(232, 234, 235);
+}
+.font{
+   font-size: 20px;
+}
+ input{
+     width: 90%;
+    border: 1px solid rgb(196, 198, 199);
+    border-radius: 5px 0px 5px 5px;
+    padding: 5px 3px;
+    margin: 0px;
+}
+.titleBody{
+text-align: center;
+margin-top: 30px;
+
+}
+.title{
+    border: 1px solid rgb(196, 198, 199);
+    border-radius: 5px 5px 0px 0px;
+    width: 160px;
+    padding: 5px 3px;
+    padding-left: 4px;
+    margin: auto;
+    margin-top: 20px;
+    color: rgb(117, 115, 115);
+    background-color: rgb(232, 234, 235);
+    font-weight: bold;
+    font-size:15px; 
+
+}
+.title img{
+    width: 40px;
+}
+
+/* .saveBtn{
+    width: 80px;
+    margin-right: 10px;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(44, 196, 6);
+}
+.saveBtn:hover{
+background-color: rgb(73, 161, 51);
+color: white;
+} */
+@media print {
+    .print {
+        display: none;
+    }
+}

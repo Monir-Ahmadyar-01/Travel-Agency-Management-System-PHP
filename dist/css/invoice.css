@@ -1,0 +1,216 @@
+/* this is a custom style for invoice bill */
+body {
+    font-family: Arial;
+    font-size: 14px;
+    direction: ltr;
+  }
+ .all-invoice {
+  /* background-color: blue; */
+ }
+  .blank-spce {
+    height:10px;
+   }
+   thead th {
+     text-align: center;
+   }
+
+   .customer-name-group input {
+     font-size: 26px;
+     font-family:'Times New Roman', Times, serif;
+     color: rgb(91, 155, 213);
+     height: 40px;
+   }
+   .customer-name-group label{
+     font-size: 26px;
+     font-family:'Times New Roman', Times, serif;
+     color: rgb(91, 155, 213);
+     font-weight: normal;
+    }
+    .inv-no {
+        font-size: 26px;
+        font-family:'Times New Roman', Times, serif;
+        color: rgb(91, 155, 213);
+        /* font-weight: bold; */
+   }
+   .invoice-id {
+       margin-bottom: 40px;
+   }
+   .cs-div {
+       position: relative;
+       left: -37px;
+       /* background-color: red; */
+   }
+   input.customer_name {
+     width: 300px;
+     background-color: red;
+   }
+.tk-invoice {
+    width: 94%;
+    height: auto;
+    /* border: 1px solid black; */
+    margin:0 auto;
+}
+/* for background of the invoice */
+.invoice-header {
+    width: 100%;
+    height: 200px;
+    /* background-color: rebeccapurple; */
+}
+.mt-5 {
+    margin-top: 50px;
+}
+thead.freez-header {
+    background-color: rgb(37, 37, 75);
+    color: white;
+}
+@media print {
+  thead.freez-header {
+    background-color: dodgerblue !important;
+  }
+  input.amount2nd {
+    display: block;
+  }
+  tr td input, tr th, tr td textarea  {
+    font-size: 13px !important;
+    padding: 0 !important;
+  }
+  
+  .header-logo {
+    position: absolute;
+    top: 1px;
+    right: 3px;
+  }
+ .reserve-code {
+   float: right !important;
+   position: absolute;
+   right: -240px;
+   text-align: right;
+   
+ }
+.cs-div {
+    float: right;
+    position: relative;
+    /* left: -8px; */
+    background-color: red;
+}
+.dt-dive{float: right;}
+.customer-name-group input {
+  font-size: 26px;
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(91, 155, 213);
+  height: 40px;
+}
+.customer-name-group label{
+  font-size: 26px;
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(91, 155, 213);
+  font-weight: normal;
+ }
+ .inv-no {
+     font-size: 26px;
+     font-family:'Times New Roman', Times, serif;
+     color: rgb(91, 155, 213);
+     /* font-weight: bold; */
+}
+.form-control {
+  float: right;
+  background-color: #fff;
+}
+.inp-print {
+  border: none;
+  background-color: none;
+}
+.print {
+  display: none !important;
+}
+}
+.reserve-code  {
+  bottom: 80px;
+  /* position: relative; */
+  /* right: -180px; */
+  float: right;
+}
+.reserve-code span {
+  text-align: center;
+  font-weight: bold;
+}
+.reserve-code h3{
+  font-size: 26px;
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(91, 155, 213);
+}
+.input-group {
+  direction: ltr;
+}
+.input-group label {
+  float: left;
+  font-weight: normal;
+}
+.btn-circle {
+  border-radius: 50%;
+   width: 40px;
+   height: 40px;
+   line-height: 18px;
+   outline: none;
+}
+.btn-circle:active {
+  outline: none;
+  border: none;
+}
+table {
+  border: 1px solid #25254b !important;
+}
+.text-center {
+  text-align: center;
+} 
+
+.invoice-body {
+}
+/* code for footer of a invoice ticket */
+.invoice-footer {
+  width: 100%;
+  margin-top: 20px;
+  float: left;
+  font-weight: bold;
+}
+table.table-inv {
+  /* width: 100% !important; */
+  /* background-color: red; */
+}
+tbody#tbody tr td {
+  /* background-color: blueviolet; */
+  padding: 1px !important;
+  width: auto;
+}
+td.num_td {
+  /* padding: 10px !important; */
+  text-align: center;
+  font-weight: bold;
+}
+td {
+  height: auto;
+}
+textarea {
+  /* resize: none; */
+}
+.opr-btns {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.header-logo {
+  width: 120px;
+  height: 120px;
+  float: right;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.header-logo img {
+  width: 100%;
+  height: 100%;
+}
+.invoice-top .logo {
+  float:right !important;
+  border:1px solid red;
+}

@@ -1,0 +1,136 @@
+
+
+body{
+    direction: ltr;
+    /* background-color: red; */
+}
+form{
+    border: 1px solid rgb(196, 198, 199);
+    border-radius: 5px;
+    padding: 15px 5px;
+    margin: auto;
+
+
+}
+
+
+
+.inputBody{
+    width: 100%;
+    padding: 0px;
+    margin-top: 7px;
+    margin-right: 15px;
+}
+.lbl{
+    border-top: 1px solid rgb(196, 198, 199);
+    border-right: 1px solid rgb(196, 198, 199);
+    border-left: 1px solid rgb(196, 198, 199);
+    border-radius: 5px 5px 0px 0px;
+    margin: 0px;
+    padding: 4px 4px;
+    color: rgb(117, 115, 115);
+    width: 80px;
+    background-color: rgb(232, 234, 235);
+}
+.font{
+   font-size: 20px;
+}
+ input{
+     width: 90%;
+    border: 1px solid rgb(196, 198, 199);
+    border-radius: 5px 0px 5px 5px;
+    padding: 5px 3px;
+    margin: 0px;
+    float: left;
+}
+.mony{
+    border: 1px solid rgb(196, 198, 199);
+    padding: 1px 3px;
+    position: absolute;
+    top:43px;
+
+    right: 0px;
+}
+.titleBody{
+text-align: center;
+margin-top: 30px;
+
+}
+.title{
+    border: 1px solid rgb(196, 198, 199);
+    border-radius: 5px 5px 0px 0px;
+    width: 90px;
+    padding: 8px 3px;
+    padding-left: 4px;
+    margin: auto;
+    margin-top: 20px;
+    color: rgb(117, 115, 115);
+    background-color: rgb(232, 234, 235);
+    font-weight: bold;
+    font-size:15px; 
+
+}
+.title img{
+    width: 40px;
+}
+
+/* .saveBtn{
+    width: 80px;
+    margin-right: 10px;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(44, 196, 6);
+}
+.saveBtn:hover{
+background-color: rgb(73, 161, 51);
+color: white;
+} */
+
+thead{
+    background-color: rgb(56, 142, 223);
+    color: white;
+}
+.pluss{
+    background-color:rgb(125, 196, 20);padding: 4px; border-radius: 50%;color: white;
+    font-size: 10px;
+}
+.pluss:hover{
+    background-color:rgb(100, 163, 5);padding: 4px; border-radius: 10px;color: white;
+    font-size: 10px;
+}
+.minus{
+    background-color:rgb(223, 88, 10);padding: 4px; border-radius: 50%;color: white;
+    font-size: 10px;
+}
+
+.pencil{
+    background-color:rgb(188, 10, 223);padding: 4px; border-radius: 50%;color: white;
+    font-size: 10px;
+}
+.pencil:hover{
+    background-color:rgb(30, 123, 245);padding: 4px; border-radius: 50%;color: white;
+    font-size: 10px;
+}
+#monetary_unit{
+    position: absolute;
+    right: 100px;
+    top: 42px;
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #d2d6de;
+    padding-top: 2px;
+}
+
+.rate{
+    width: 100px;
+    padding-bottom: 7px;
+    position: absolute;
+    right: 0px;
+    top: 42px;
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #d2d6de;
+    padding-top: 2px;
+    text-align: right;
+}

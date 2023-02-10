@@ -1,0 +1,41 @@
+body {
+    background-image: url(../img/AegeanAirlines.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login-box {
+    padding: 55px;
+    box-shadow:8px 4px 20px 5px #0000001a !important;
+    opacity: 92%;
+    border-radius: 10px;
+}
+
+.form-group input {
+    width: 100%;
+}
+.img-box {
+    width: 100px;
+    height: 100px;
+    padding: 4px;
+    border-radius: 50%;
+     
+    overflow: hidden;
+    border: 4px solid dodgerblue;
+}
+.box.box-info {
+    border-top: 4px solid dodgerblue;
+}
+.btn.btn-info {
+    background-color: dodgerblue;
+}
+.checkbox {
+    text-align: right;
+    width: 100% !important;
+    display: flex;
+    background-color: dodgerblue;
+    justify-content: space-between;
+}
+
+.input-group label {
+    /* margin-right: 40px; */
+}

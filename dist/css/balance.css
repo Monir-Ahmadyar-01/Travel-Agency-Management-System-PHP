@@ -1,0 +1,100 @@
+
+
+.prof1_body{
+    border: 1px solid rgb(240, 199, 86);
+    width: 80%;
+    border-radius: 25px 3px 25px 3px;
+    background-color:rgb(245, 209, 109) ;
+    box-shadow: 5px 5px 17px rgb(216, 176, 65);
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    position: relative;
+
+}
+label{
+    padding-left: 10px;
+}
+img{
+    position: absolute;
+    width:auto;
+    height: 170px;
+    top: 20px;
+    right: 70px;
+    left: 10px;
+    border-radius: 50%;
+}
+.prof1_body .image{
+    width: 100%;
+    text-align:center;
+    color: rgb(173, 130, 11);
+    border-bottom: 1px solid white;
+    font-size: 180px;
+    height: 200px;
+    border-radius: 30px;
+}
+.prof1_body .description{
+    color: white;
+    padding: 10px 15px;
+}
+
+.prof2_body{
+    border: 1px solid rgb(223, 86, 132);
+    width: 80%;
+    border-radius: 25px 3px 25px 3px;
+    background-color:rgb(233, 119, 157);
+    box-shadow: 5px 5px 17px rgb(223, 86, 132 );
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+
+}
+.prof2_body .image{
+    width: 100%;
+    text-align:center;
+    color: rgb(172, 40, 84);
+    border-bottom: 1px solid white;
+    font-size: 180px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+
+.prof2_body .description{
+    color: white;
+    padding: 10px 15px;
+}
+.prof3_body{
+    border: 1px solid rgb(223, 86, 132);
+    width: 80%;
+    border-radius: 25px 3px 25px 3px;
+    background-color:rgb(171, 119, 201);
+    box-shadow: 5px 5px 17px rgb(183, 130, 214);
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+
+}
+.prof3_body .image{
+    width: 100%;
+    text-align:center;
+    color: rgb(85, 25, 119);
+    border-bottom: 1px solid white;
+    font-size: 180px;
+    height: 200px;
+    border-radius: 30px;
+}
+.prof3_body .description{
+    color: white;
+    padding: 10px 15px;
+}
+.title{
+    text-align:center ;
+    margin: 35px 5px;
+    color: gray;
+    
+}
+.title span{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 6px 6px;
+    border: 1px solid rgb(218, 216, 216);
+    border-radius: 10px 3px 10px 3px;
+}
